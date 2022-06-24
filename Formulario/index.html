@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Form de Cadastro para Compras</h1>
+  <form id="formscompras" method="post" action="">
+    <label for="contact">Contato</label><br/>
+    <p> </p>
+    <label for="firstName">Primeiro Nome:</label>
+    <input type="text" name="firstName" placeholder="Primeiro Nome" autofocus="autofocus"/><br/>
+    <label for="lastName">Sobrenome:</label>
+    <input type="text" name="lastName" placeholder="Sobrenome"><br/>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="E-mail"><br/>
+    <label for="phoneNumber">Número de Celular:</label>
+    <input type="text" name="phoneNumber" placeholder="( )      -    "/><br/>
+    <label for="birthdate">Data de Nascimento:</label>
+    <input type="date" name="birthdate"/><br/>
+    <label for="password">Senha</label>
+    <input type="password" name="password" placeholder="********"><br/>
+    <p> </p>
+    <label for="address">Endereço</label><br/>
+    <p> </p>
+    <label for="streetName">Rua/Avenida:</label>
+    <input type="text" name="streetName" placeholder="Rua/Avenida"/><br/>
+    <label for="number">Número:</label>
+    <input type="text" name="number" placeholder="Número"/><br/>
+    <label for="complement">Complemento:</label>
+    <input type="text" name="complement" placeholder="Bloco/Apto Nº"/><br/>
+    <p> </p>
+    <label for="paymentMethods">Adicionar Cartão</label><br/>
+    <p> </p>
+    <ul>
+      <li><label for="creditCard"><input type="radio" name="creditCard" value="C">Crédito</label></li>
+      <li><label for="debitCard"><input type="radio" name="debitCard" value="D">Débito</label></li>
+    </ul>
+    <label for="cardNumber">Número do Cartão:</label>
+    <input type="text" name="cardNumber"/><br/>
+    <label for="Expdate">Data de Expiração:</label>
+    <input type="date" name="Expdate"/><br/>
+    <label for="cvv">CVV:</label>
+    <input type="text" name="cvv"/><br/>
+    <p> </p>
+    <input type="submit" name="submit" value="ENVIAR">
+  </form>
+
+
+  
+  <script src="script.js"></script>
+
+ <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
